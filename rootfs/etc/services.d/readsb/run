@@ -15,8 +15,8 @@ elif [ -n "${READSB_LAT}" ]; then
     READSB_CMD+=(--lat "${READSB_LAT}")
 fi
 
-if [ -n "${LONG}" ]; then
-    READSB_CMD+=(--lon "${LONG}")
+if [ -n "${LON}" ]; then
+    READSB_CMD+=(--lon "${LON}")
 elif [ -n "${READSB_LON}" ]; then
     READSB_CMD+=(--lon "${READSB_LON}")
 fi
